@@ -1,0 +1,113 @@
+body  {
+    font-size: 18px;
+    background-color: #f7f6f9;
+   }
+   
+   .wrapper{ max-width: 1400px;
+     min-width: 480px;
+   margin: auto;
+   
+   }
+   
+   h1{font-size: 35px;
+   color: #422e6d;}
+   
+   .todo {
+       border: 1px solid  #050c70;
+       margin: 5px 0;
+       transition: 0.3s all;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 5px 10px;
+       border-radius: 3px;
+   
+   }
+   
+   .done {
+       opacity: 0.5;
+   }
+   
+   
+   
+   .user-todos-button {
+       margin: 5px;
+       background: #d1c6f2;
+       padding: 5px 10px;
+       border-radius: 5px;
+       font-size: 16px;
+       border: 1px solid #d1c6f2;
+      
+   }
+   
+   .active-user-button {
+       background: #add3eb;
+   }
+   
+   input {
+       margin: 5px;
+       font-size: 16px;
+       padding: 5px 10px;
+       border-radius: 5px;
+       border: 1px solid #050c70;
+   }
+   
+   #create-todo-button{font-size: 16px;
+   padding: 5px 10px;
+   border-radius: 5px;
+   background-color: #555ed4;
+   border: 1px solid #555ed4;
+   color: #fff}
+   
+   #clear-current-user{font-size: 16px;
+   background-color: #f4ddbf;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid #f4ddbf;
+   margin-left: 5px;
+   }
+   
+   .delete-todo{background-color:crimson;
+   color: #fff;
+   border: 1px solid crimson;}
+   
+   .scroll-top-button{
+     position:fixed; 
+     top:88%;     
+     left:83%;      
+     z-index:999; 
+     border: none;
+     width: 0;
+       height: 0;
+       border-left: 40px solid transparent;
+       border-right: 40px solid transparent;
+       border-bottom: 70px solid #7e5bc9;
+   
+   
+   }
+   
+   img{margin-top: 13px;
+   margin-left: -33px;}
+   
+   #clear-search-todos{background-color: #c77e57;
+   font-size: 16px;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid #c77e57;
+   color: #fff;
+   }
+   
+   
+   
+   
+   
+   @media screen and (max-width: 1050px) {
+   
+     .scroll-top-button{
+      
+     left:70%;      
+   
+   }
+     
+   }
+   
